@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<!-- 
+ Filename: tables.html
+ Author: Matthew Boone
+ Create Date: 15 Nov 2017
+ Purpose: The purpose of this lab is to create a table set for websites
+ Modification History: Initial version
+    
+ Tested in Chrome , Microsoft IE , and Firefox.  Page displays exactly the same way in all browsers.
+-->
+
+<html lang="en">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+   <title>This list has been tabled</title>
+	<link rel="stylesheet" href="table.css">  <!--R7  create external stylesheet-->
+   
+   
+</head>   
+   
+  <body>
+    <header>Weekly Training Schedule Table 
+	
+	
+    </header>
+
+<h1>Week 1</h1>	
+<table id="table1" class="tablepress ">  <!--This table creates the first week routine to enhance strength  -->
+<caption>  This is the weekly training schedule to build a base level of strength.    <!-- R6 Include a <caption> for your table.-->
+The idea is to start out light weight, and add 5 lbs. to each exercize every time you do them.  
+If you can't do the newest weight, then you can just complete what you can.
+</caption>
+<tr class="row_odd">  <!--R1 First row of table should use <th> to create cell for each day of week  -->
+	<th class="column-0"></th>
+	<th class="column-1">Monday - Workout A</th>
+	<th>Tuesday - Fat Burn HIIT </th>
+	<th class="column-3">Wednesday - Workout B</th>
+	<th>Thursday - Fat Burn HIIT</th>
+	<th class="column-5">Friday - Workout A</th>
+	<th>Saturday - Rest</th>
+	<th class="column-7">Sunday - Rest</th>
+</tr>
+<tr class="row_even">
+	<td class="column-0">first workout</td>  <!--R2 First column of table should use <th> to indicate segments  -->
+	<td class="column-1"><a href="https://www.youtube.com/watch?v=Dy28eq2PjcM">Squat</a> 5 sets of 5 reps</td>   <!--R3 Each data cell of your table should use <td> to represent the scheduled activity for that day.-->
+	<td rowspan="3" class="column-2"><a href="https://www.youtube.com/watch?v=q20pLhdoEoY">Fat Burn HIIT</a>  <!--R4 Include at least three rowspans to indicate activities that last span multiple rows.-->
+		<ul>
+            <li class="list">Going for a run</li>  <!--R10 Nest a styled list inside at least one of your <td> cells.-->
+            <li class="list">Doing a bike ride</li>
+            <li class="list">Find an AB routine with HIIT</li>
+            <li class="list">Do body weight exercises</li>
+		</ul>
+	</td>
+	<td class="column-3"><a href="https://www.youtube.com/watch?v=Dy28eq2PjcM">Squat</a> 5 sets of 5 reps</td>
+	<td rowspan="3" class="column-4"><a href="https://www.youtube.com/watch?v=q20pLhdoEoY">Fat Burn HIIT</a>  <!--R4 Include at least three rowspans to indicate activities that last span multiple rows.-->
+		<ul>
+            <li class="list">Going for a run</li>
+            <li class="list">Doing a bike ride</li>
+            <li class="list">Find an AB routine with HIIT</li>
+            <li class="list">Do body weight exercises</li>
+		</ul>
+	</td>
+	<td class="column-5"><a href="https://stronglifts.com/squat/">Squat</a> 5 sets of 5 reps</td>
+	<td colspan=2 rowspan=3 class="column-6">Rest days</td> <!-- R5 Include at least one colspan to indicate activities that last more than one day.-->
+</tr>
+<tr class="row_odd">
+	<td class="column-0">second workout</td>
+	<td class="column-1"><a href="https://www.youtube.com/watch?v=gRVjAtPip0Y">Bench Press</a> 5 sets of 5 reps</td>
+	<td><a href="https://www.youtube.com/watch?v=F3QY5vMz_6I">Overhead Press</a> 5 sets of 5 reps</td>
+	<td class="column-5"><a href="https://www.youtube.com/watch?v=gRVjAtPip0Y">Bench Press</a> 5 sets of 5 reps</td>
+</tr>
+<tr class="row_even">
+	<td class="column-0">third workout</td>
+	<td class="column-1"><a href="https://www.youtube.com/watch?v=h4nkoayPFWw">Barbell Row</a> 5 sets of 5 reps</td>
+	<td class="column-3"><a href="https://www.youtube.com/watch?v=-4qRntuXBSc">Deadlift</a> 1 set of 5 reps</td>
+	<td class="column-5"><a href="https://www.youtube.com/watch?v=h4nkoayPFWw">Barbell Row</a> 5 sets of 5 reps</td>
+</tr>
+</table>
+
+<h1>Week 2</h1>	
+<table id="table2" class="tablepress "> <!--This table creates the second week routine to enhance strength  -->
+<caption>   The idea is to build every time as much as you can without getting injury.  <!-- R6 Include a <caption> for your table.-->
+  This allows your body to build supportive muscle to complete the exercize.  
+  Alternating the routines consistently, keeping track of where you are at, and being diligent about doing the routines will allow your body to grow.
+</caption>
+<tr class="row_odd">
+	<th class="column-0"></th>
+	<th class="column-1">Monday - Workout B</th>
+	<th>Tuesday - Fat Burn HIIT </th>
+	<th class="column-3">Wednesday - Workout A</th>
+	<th>Thursday - Fat Burn HIIT</th>
+	<th class="column-5">Friday - Workout B</th>
+	<th>Saturday - Rest</th>
+	<th class="column-7">Sunday - Rest</th>
+</tr>
+<tr class="row_even">
+	<td class="column-0">first workout</td>
+	<td class="column-1"><a href="https://www.youtube.com/watch?v=Dy28eq2PjcM">Squat</a> 5 sets of 5 reps</td>
+	<td rowspan="3" class="column-2"><a href="https://www.youtube.com/watch?v=q20pLhdoEoY">Fat Burn HIIT</a>  <!--R4 Include at least three rowspans to indicate activities that last span multiple rows.-->
+		<ul>
+            <li class="list">Going for a run</li>
+            <li class="list">Doing a bike ride</li>
+            <li class="list">Find an AB routine with HIIT</li>
+            <li class="list">Do body weight exercises</li>
+		</ul>
+	</td>
+	<td><a href="https://www.youtube.com/watch?v=Dy28eq2PjcM">Squat</a> 5 sets of 5 reps</td>
+	<td rowspan="3" class="column-4"><a href="https://www.youtube.com/watch?v=q20pLhdoEoY">Fat Burn HIIT</a>  <!--R4 Include at least three rowspans to indicate activities that last span multiple rows.-->
+		<ul>
+            <li class="list">Going for a run</li>
+            <li class="list">Doing a bike ride</li>
+            <li class="list">Find an AB routine with HIIT</li>
+            <li class="list">Do body weight exercises</li>
+		</ul>
+	</td>
+	<td class="column-5"><a href="https://www.youtube.com/watch?v=Dy28eq2PjcM">Squat</a> 5 sets of 5 reps</td>
+	<td colspan=2 rowspan=3 class="column-6">Rest days</td>
+</tr>
+<tr class="row_odd">
+	<td class="column-0">second workout</td>
+	<td><a href="https://www.youtube.com/watch?v=F3QY5vMz_6I">Overhead Press</a> 5 sets of 5 reps</td>
+	<td class="column-3"><a href="https://www.youtube.com/watch?v=gRVjAtPip0Y">Bench Press</a> 5 sets of 5 reps</td>
+	<td><a href="https://www.youtube.com/watch?v=F3QY5vMz_6I">Overhead Press</a> 5 sets of 5 reps</td>
+</tr>
+<tr class="row_even">
+	<td class="column-0">third workout</td>
+	<td class="column-3"><a href="https://www.youtube.com/watch?v=-4qRntuXBSc">Deadlift</a> 1 set of 5 reps</td>
+	<td class="column-1"><a href="https://www.youtube.com/watch?v=h4nkoayPFWw">Barbell Row</a> 5 sets of 5 reps</td>
+	<td class="column-5"><a href="https://www.youtube.com/watch?v=-4qRntuXBSc">Deadlift</a> 1 set of 5 reps</td>
+</tr>
+</table>
+	
+	
+	<br>
+	<a href="index.html"> Back to Course Work Page</a><br><br>
+	
+
+    <footer>
+       Matt Boone 2017
+      <br>
+    </footer>
+
+  </body>
+</html>
+
+

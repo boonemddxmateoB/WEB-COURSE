@@ -1,0 +1,141 @@
+
+/*
+ Filename: table.css
+ Author: Matthew Boone
+ Purpose: Table Lab
+ Note:
+ ORIGINALLY CREATED ON: 11/15/17
+ LAST MODIFIED ON: 11/15/2017
+ LAST MODIFIED BY: Matthew Boone
+ Modification History: 11/15/17 Initial release
+ 
+  Tested in Chrome , Microsoft IE , and Firefox.  Page displays exactly the same way in all browsers.
+ -->*/
+
+ 
+
+ 
+body {
+	font-family: 		"Trebuchet MS", Geneva, Arial, sans-serif;   
+	font-size:  		12px;                    
+	margin:				0px;
+	
+}
+
+header {
+	font-weight:bold;                 
+	font-size:200%;
+	color: black;
+	font-style: italic;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	font-style: italic;
+	background-color:grey;
+	border-color:black;
+	border-style: solid;
+	padding: 25px;
+	margin:  30px;
+	text-align:	center;                      
+	clear:  both;	
+}
+
+footer { 							
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	font-weight:bold;                 
+	font-size:300%;
+	color: black;
+	font-style: italic;
+	background-color:grey;
+	border-color:black;
+	border-style: solid;
+	padding: 25px;
+	margin:  30px;
+	text-align:	center;
+	clear:	both;
+	
+}
+/* unvisited link  */
+
+a:link {
+    color: 				blue;
+	text-decoration:	none;
+	border-bottom:		thin dotted #b76666;
+}
+/* visited link */
+a:visited {
+    color: 				purple;
+	text-decoration:	none;
+	border-bottom:		thin dotted #675c47;
+}
+/* hover over link */
+a:hover {
+    color: blue;
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+
+table { margin-left: 20px; 
+margin-right: 20px;
+border: thin solid black; /* R9 Specify a border style for your <table>, <th>, or <td>  */
+caption-side: bottom;
+	
+	
+}
+
+td{
+	color:navy;     
+	font-weight:bold;
+	padding: 5px;
+	border-radius: 30px 30px 30px 30px; 
+	
+	
+}
+th{	color:black;     
+	font-weight:bold;
+	padding: 5px;
+	border-radius: 30px 30px 30px 30px; 
+	 
+	background-color: #fcba7a;
+}	
+.row_odd {     /* R8 In your stylesheet, specify at least three different background colors to represent either different activities or different people in your schedule.*/
+	background-color: #cc6600;
+	
+}	
+
+td, th {
+	border: thin dotted gray;   /* R9 Specify a border style for your <table>, <th>, or <td>  */
+	padding: 5px;
+	
+}
+
+.row_even {
+	background-color: grey;
+	
+}	
+.column-6 {
+	text-align: center;
+	background-color: green;
+}
+.column-2 {
+	text-align: center;
+	background-color: red;
+}
+.column-4 {
+	text-align: center;
+	background-color: red;
+}
+caption {
+	font-style: italic;
+	padding-top: 8px;
+}
+
+li {list-style-type: square}
+
+

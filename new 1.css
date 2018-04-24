@@ -1,0 +1,38 @@
+header {					/* Requirement 9.Correctly use at least five HTML5 elements as described in Chapter 12 of the textbook. */
+	clear: both;
+	background: black;
+	color: red;
+	text-align: center;
+	height: 50px;
+}
+
+footer {
+	clear: both;				/* Requirement 8. Utilize at least six of the following */
+	background: black;
+	color: red;
+	text-align: center;
+	height: 40px;	
+}
+#content {						/* Requirement 4. keep everything centered */
+	text-align: center;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.columeLeft {				/* Requirement 5. Columns remain fized with window resizing */
+	float: left;
+	width: 50%;
+	height: 700px;
+}
+
+.columeRight {
+	float: right;			/* Requirement 7. both imgs are contained in elements that cause them to float */
+	width: 50%;
+}
+
+img {					/* Requirement 6. keeping columns equal */
+	height:auto;
+	max-height: 500px;
+	max-width: 100%;
+}

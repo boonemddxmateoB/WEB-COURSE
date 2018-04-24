@@ -1,0 +1,129 @@
+
+/*
+ Filename: fun.css
+ Author: Matthew Boone
+ Purpose: Floating in Jello Lab
+ Note:
+ ORIGINALLY CREATED ON: 11/1/17
+ LAST MODIFIED ON: 11/1/2017
+ LAST MODIFIED BY: Matthew Boone
+ Modification History: 
+ Requirement 2: The HTML and CSS files should have header block comments that contain your name and the date.
+ Requirement 3: HTML and CSS files contain comments that explain how the layout works.
+  Tested in Chrome , Microsoft IE , and Firefox.  Page displays exactly the same way in all browsers.
+ -->*/
+
+ 
+
+ 
+body {
+	font-family: 		"Trebuchet MS", Geneva, Arial, sans-serif;  
+	background-color: 	white;			   
+	font-size:  		12px;                    
+	margin:				0px;
+}
+
+#header {
+	font-weight:bold;                 /* Style the <header> element. */
+	font-size:200%;
+	color: black;
+	font-style: italic;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	font-style: italic;
+	background-color:grey;
+	border-color:black;
+	border-style: solid;
+	padding: 25px;
+	margin:  30px;
+	text-align:	center;                   /*The image is styled with center position*/     
+	clear:  both;	
+}
+
+#footer { 							/* Style the <footer> element. */
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	font-weight:bold;                 
+	font-size:100%;
+	color: black;
+	font-style: italic;
+	background-color:grey;
+	border-color:black;
+	border-style: solid;
+	padding: 25px;
+	margin:  30px;
+	text-align:	center;
+	clear:	both;
+	
+}
+/* unvisited link  */
+
+a:link {
+    color: 				#b76666;
+	text-decoration:	none;
+	border-bottom:		thin dotted #b76666;
+}
+/* visited link */
+a:visited {
+    color: 				#675c47;
+	text-decoration:	none;
+	border-bottom:		thin dotted #675c47;
+}
+/* hover over link */
+a:hover {
+    color: hotpink;
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#allcontent {
+	max-width:	100%;/*Utilize at least six of the following - id or class, float, clear, min-height, margin (or -left & -right), text-align, width, padding. */
+	padding-top:	5px;/*Utilize at least six of the following - id or class, float, clear, min-height, margin (or -left & -right), text-align, width, padding. */
+	padding-bottom:	5px;/*Utilize at least six of the following - id or class, float, clear, min-height, margin (or -left & -right), text-align, width, padding. */
+	padding-right: 5px;/*Utilize at least six of the following - id or class, float, clear, min-height, margin (or -left & -right), text-align, width, padding. */
+	padding-left:  5px;      /*Utilize at least six of the following - id or class, float, clear, min-height, margin (or -left & -right), text-align, width, padding. */
+	background-color: white;
+	margin-left:	auto;   /*Utilize at least six of the following - id or class, float, clear, min-height, margin (or -left & -right), text-align, width, padding. */
+	margin-right:	auto;  /*Utilize at least six of the following - id or class, float, clear, min-height, margin (or -left & -right), text-align, width, padding. */
+	
+}
+
+
+.GlucoseColumn1{
+	color:			black;  /*   style Glucose Column */
+	font-weight: 	bold;
+	padding: 		5px;
+	width:  45%;
+	float:	left;			/*   requirement style Glucose Column */
+	border-radius: 30px 30px 30px 30px; 
+	border-style: solid;
+}
+
+
+
+
+.KetosisColumn{
+	color:blue;     /*   style Ketosis Column*/
+	font-weight:bold;
+	padding: 5px;
+	border-radius: 30px 30px 30px 30px; 
+	width:  45%;
+	border-style: solid;
+	float: 	right;
+	
+	
+}
+/*Requirement 4:  Page is centered and stays centered with window resizing.
+Column content remains fixed with window resizing.
+The height of both columns is relatively equal unless creating an inset effect.
+
+***NOTE WE HAVE NOT USED CHAPTER 12 HTML5 elements like articles, figures, meters...*******
+
+
+*/

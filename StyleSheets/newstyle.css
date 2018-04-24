@@ -1,0 +1,57 @@
+/* ================================ UNIVERSAL ================================ */
+
+@font-face{
+	font-family:Magnolia;
+	src: url(../fonts/Magnolia_Script.otf);
+}	
+	/*Requirement 13.  extra credit Use a web font to add special font*/
+ 
+
+body {
+	font-family: "Trebuchet MS", Geneva, Arial, sans-serif;  /* Requirement 1.  Set font family of body element*/
+	background-color: #32cd32;			   /* Requirement 2.  Set background color of body element*/
+	color:#000000;                         /* Requirement 3.  Set text color of the body element using hex code*/
+	font-size: 24px;                    /* Requirement 4.  Set font size the body element using hex code*/
+}
+
+h1, h2, h3, h4, h5, h6 {                      /* Requirement 7. Create a CSS rule that applies to more than one element )*/
+	font-weight: bold;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 250%;
+	color: black;					/*Requirement 11.  Besides the rule above, define a color by name.*/	
+	font-style: italic;             /*Requirement 12.  Create a CSS rule for font weight, text decoration, or font style.*/
+	border-bottom: 1px solid black;	/* Requirement 10.  Create a CSS rule defining the bottom border for <h1> to be black, one pixel thick, and solid.*/
+}
+p{font-size:large;
+font-family:Magnolia}    /* Requirement 8. Create a CSS rule that overrides an inherited style.  )*/
+
+
+#firstmost{background-color: yellow}  /* Requirement 6.  create a syle id and syle the page element of choice "QuoteWebsiteLinks" */
+
+p.first{color:blue;     /* Requirement 5.  Create four different style classes */
+font-family:Magnolia;
+font-weight: bold;
+text-decoration: line-through;   /*Requirement 12.  Create a CSS rule for font weight, text decoration, or font style.*/
+}
+
+p.coach{color:black;    /* Requirement 5.  Create four different style classes */
+  font-weight:bold;
+  font-size:small;          /* Requirement 9.  Set the font size for something besides <body> using a method other than pixels. */
+  text-decoration:underline;   /*Requirement 12.  Create a CSS rule for font weight, text decoration, or font style.*/
+}
+
+ p.sixneeds{color:red;     /* Requirement 5.  Create four different style classes */
+  font-weight: normal;
+  text-decoration: underline;  /*Requirement 12.  Create a CSS rule for font weight, text decoration, or font style.*/
+}
+
+p.trouble{color:yellow;     /* Requirement 5.  Create four different style classes */
+  font-weight: bold;
+}
+
+blockquote.coach{color:blue}
+
+
+/*Use the <link> tag to link the stylesheet to at least three pages.  [See the websites on my drive:  ToubleshootingMB.html , FullSizeActionHero_crop  , myFirst.html , QuoteWebsiteLinks.html] */
+
+

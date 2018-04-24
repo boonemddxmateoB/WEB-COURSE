@@ -1,0 +1,6 @@
+body{
+	font-family: Verdana, Geneva, Arial, sans-serif;  /* Requirement 1.  Set font family of body element*/
+	background-color: Green;			   /* Requirement 2.  Set background color of body element*/
+	color: Yellow;                         /* Requirement 3.  Set text color of the body element using hex code*/
+	font-size: 38px;                    /* Requirement 4.  Set font size the body element using hex code*/
+}
